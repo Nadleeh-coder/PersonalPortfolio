@@ -1,0 +1,19 @@
+Title: Geometry Game
+
+Description: An app that lets the user provide a coordinate that represents a given Point and guess
+the rectangle's area, and the program draws a rectangle on a canvas given a set of random points,
+calculates the area, and validates if the given Point by the user falls inside the rectangle.
+
+Objects: Point:
+            x
+            y
+            falls_in_rectangle(rectangle)
+            distance_from_point(point)
+         Rectangle:
+            point1
+            point2
+            area()
+         GraphicalRectangle(Rectangle):
+            draw(canvas)
+         GraphicalPoint(Point):
+            draw(canvas, size, color)
