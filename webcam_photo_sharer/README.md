@@ -45,6 +45,14 @@ Run the following command to install the required libraries:
 
 pip install kivy filestack
 
+FileStack API Key
+
+You need to supply your own FileStack API key to use the upload functionality. Replace the default API key in filesharer.py with your own.
+
+def __init__(self, filepath, api_key=""):
+      self.filepath = filepath
+      self.api_key = api_key
+
 Run the Application
 
 Execute the script with:
@@ -78,3 +86,4 @@ This project is open-source under the MIT License.
 📢 Disclaimer
 
 This is an experimental project and may not work perfectly. Use at your own discretion!
+
